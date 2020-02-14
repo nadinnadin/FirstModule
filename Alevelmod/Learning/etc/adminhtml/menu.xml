@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Alevelmod_Learning::coupon" title="Coupon" module="Alevelmod_Learning" sortOrder="20" resource="Alevelmod_Learning::coupon"/>
+        <add id="Alevelmod_Learning::config" title="Show config" module="Alevelmod_Learning" sortOrder="10" parent="Alevelmod_Learning::coupon" resource="Alevelmod_Learning::config"/>
+    </menu>
+</config>
